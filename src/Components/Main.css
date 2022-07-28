@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#root {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background: #E5E5E5;
+
+}
+
+.active {
+    background-color: #fff;
+    transition: linear 0.5s;
+    transform: translateX(20px) scale(1.01); 
+}
+
+
+nav {
+    width: 100%;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../assest/gym1\ 1.png);
+}
+.main img:hover{
+    transform: scale(1.1);
+}
+.nav_hng{
+    font-weight: 700;
+    font-size: 35px;
+    color: #B75600;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+}
+.navin{
+    font-weight: 700;
+    font-size: 18px;
+    color: #B75600;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.section1 {
+    width: 100%;
+    height: 582px;
+    background-image: url(../assest/gym1\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.welcome {
+    font-weight: 700;
+    font-size: 111.207px;
+    line-height: 145px;
+
+    color: #FFFFFF;
+}
+
+.hing {
+    font-weight: 700;
+    font-size: 58.6397px;
+    line-height: 76px;
+
+    color: #FFFFFF;
+    padding-left: 195px;
+}
+
+.comfort {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    padding-left: 210px;
+}
+
+.hng {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 85px;
+    /* identical to box height */
+
+
+    color: #B75600;
+    padding: 73px 0 0 112px;
+
+}
+
+.lorem {
+    width: 780px;
+    height: 419px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.section2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sec_left {
+    padding-left: 99px;
+
+}
+
+.coking {
+    margin-bottom: 29px;
+}
+
+.sec_right {
+    margin-top: -140px;
+    padding-right: 144px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.booon {
+    width: 150px;
+    height: 57px;
+    font-weight: 500;
+    font-size: 18.1211px;
+    line-height: 20px;
+    /* or 109% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #B75600;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-left: 180px;
+}
+
+.section3 {
+    width: 100%;
+    height: 420px;
+    background-image: url(../assest/Group\ 4.png);
+    margin-top: 20px;
+
+}
+
+.pbook {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 85px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    padding: 61px 0 0 57px;
+}
+
+.p_lorem {
+    width: 625px;
+    height: 114px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    padding-left: 55px;
+
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+
+    width: 100%;
+    height: 196px;
+    background: #B75600;
+    margin-top: 20px;
+}
+
+.hngimg {
+    margin: 46px 0 0 64px;
+}
+
+.sec_center_1 {
+    padding-left: 266px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contact {
+    font-weight: 700;
+    font-size: 20.6624px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.sec_right_1 {
+    padding: 34px 0 0 266px;
+}
+
+.reviews {
+    font-weight: 700;
+    font-size: 20.6624px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+    padding-top: 32px;
+
+}
+
+.rates {
+    font-weight: 700;
+    font-size: 20.6624px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+    padding-top: 24px;
+}
+
+.sec_right_2 {
+    padding: 34px 0 0 116px;
+}
+
+.about {
+    width: 1440px;
+    height: 281px;
+    background-image: url(../assest/gym1\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.fscilson {
+    font-weight: 700;
+    font-size: 111.207px;
+    line-height: 145px;
+
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Facilities {
+    width: 100%;
+    height: auto;
+}
+
+.overview {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section7 {
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 111px;
+}
+
+.section8 {
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    padding-left: 250px;
+    display: flex;
+}
+
+.big_card {
+    width: 1298px;
+    height: 430px;
+    background-color: #FFFFFF;
+    margin: 30px 0 0 71px;
+    display: flex;
+}
+
+.card_img {
+    margin: 40px 27px 0 63px;
+}
+
+.deluxe {
+    font-weight: 400;
+    font-size: 32.8733px;
+    line-height: 47px;
+    /* identical to box height, or 143% */
+
+
+    color: #B75600;
+    padding-top: 57px;
+}
+
+.card_lorem {
+    width: 627px;
+    height: 154px;
+    font-weight: 700;
+    font-size: 24.3158px;
+    line-height: 32px;
+
+    color: #000000;
+    padding-top: 18px;
+}
+
+.card_d_f {
+    padding: 70px 0 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card_btn {
+    width: 184px;
+    height: 72px;
+    font-weight: 500;
+    font-size: 22.8898px;
+    line-height: 25px;
+    /* or 109% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #B75600;
+    border-radius: 39.1579px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.contact_lorem {
+    padding-top: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-card{
+width: 608px;
+height: 418px;
+background-color: #FFFFFF;
+box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
+margin-top: -50px;
+margin-left: 98px;
+}
+.contact-card_1{
+width: 608px;
+height: 418px;
+background-color: #FFFFFF;
+box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
+margin-top: -50px;
+margin-left: 47px;
+}
+.phone_img{
+   padding: 27px 0 0 264px;
+}
+.contact_lorem_2{
+    width: 542px;
+    height: 133px;
+
+    font-weight: 700;
+font-size: 21px;
+line-height: 27px;
+text-align: center;
+
+color: #000000;
+padding-top: 11px;
+}
+.call{
+    font-weight: 700;
+font-size: 37.881px;
+line-height: 49px;
+
+color: #B75600;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 19px;
+}
+.contact_d_f{
+    display: flex;
+}
